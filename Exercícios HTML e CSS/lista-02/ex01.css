@@ -1,4 +1,4 @@
-#div1_1{
+#div01 {
     background-color: red;
     height: 50px;
     width: 50px;
@@ -6,7 +6,7 @@
     margin-top: 100px;
 }
 
-#div1_2{
+#div02 {
     background-color: black;
     height: 50vh;
     width: 25px;
