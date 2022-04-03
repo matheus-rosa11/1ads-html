@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.header {
+    border-bottom: 2px solid #fdaf39;
+    background-color: rgb(21, 21, 21);
+}
+
+.header .container h1 {
+    color: #fdaf39;
+    font-weight: 500;
+}
+
+.header .container .agora {
+    color: #fdaf39;
+}
+
+.container {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container h1 {
+    color: #fdaf39;
+}
+
+.container ul {
+    color: #e3b062;
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly ;
+    list-style: none;
+}
+
+.header .container {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container ul a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul a:hover {
+    color: #fdaf39;
+}
+
+.agora {
+    font-weight: 600;
+    color: #eb9a21;
+}
+
+.banner {
+    height: 500px;
+    background-image: url(wallpaperbetter.com_3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner .container {
+    height: 500px;
+    align-items: center;
+}
+
+.banner p {
+    color: white;
+    width: 280px;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    margin-left: 350px;
+
+}
+
+.banner .card {
+    background-color: rgb(39, 39, 39);
+    box-shadow: 10px 10px 8px rgb(0, 0, 0);
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 0px;
+    border-radius: 10px;
+}
+
+.btn {
+    font-family: monospace;
+    margin-top: 20px;
+    border: 0;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    padding: 10px 15px;
+    background-color: #f79f1c;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #a06915;
+}
+
+.card input {
+    height: 30px;
+    border: 1px solid #fdaf39;
+    border-radius: 10px;
+}
+
+.card h1 {
+    font-weight: 500;
+}
+
